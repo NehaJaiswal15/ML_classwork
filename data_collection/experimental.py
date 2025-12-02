@@ -13,6 +13,6 @@ def fetch_from_logs(filepath="experimental.txt"):
 
 if __name__ == "__main__":
     data = fetch_from_logs()
-    print("\n---- Experimental Logging Data ----")
+    print("\nExperimental Logging Data")
     for entry in data:
         print(entry)
